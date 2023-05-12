@@ -1,0 +1,15 @@
+li {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+#skill-heading {
+    margin: 10px 0px 0px 10px;
+}
+
+@media(max-width: 786px)
+{
+    .custom-pie {
+        outerRadius: 80px;
+        }
+}

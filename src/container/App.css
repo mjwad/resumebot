@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  z-index: 2;
 }
 
 .App-logo {
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#response-section {
+  height: fit-content;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+#some {
+  background-color: white;
 }

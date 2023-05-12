@@ -1,0 +1,42 @@
+#left {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.progress-bar {
+    display: none;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    text-align: center;   
+}
+
+.info {
+    display: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.alert {
+    display: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.visible {
+    display: block;
+}
+
+@media(max-width: 576px) {
+    #left {
+        flex-direction: row;
+        gap: 20px
+    }
+    #submit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
